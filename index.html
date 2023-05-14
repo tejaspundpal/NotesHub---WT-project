@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images\noteshub_icon.png" type="image/x-icon">
+    <title>NotesHub-Notes on a click</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!-------------------------------------------------Navbar--------------------------------------->
+    <section id="section-one">
+        <header>
+            <nav>
+                <div class="left-menu">
+                    <div class="logo">
+                        <a href="#">
+                            <img id="logo" src="images\logo1.jpeg" alt="noteshub logo">
+                        </a>
+                    </div>
+                    <div class="sub-menu">
+                        <a href="#section-one">
+                            <li>Home</li>
+                        </a>
+                        <a href="#section-two">
+                            <li>Years</li>
+                        </a>
+                        <a href="#section-three">
+                            <li>Domains</li>
+                        </a>
+                        <a href="#section-four">
+                            <li>Library</li>
+                        </a>
+                        <a href="#section-five">
+                            <li>Contact Us</li>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-menu">
+                    <a href="profile.php">
+                        <img src="https://img.icons8.com/3d-fluency/94/null/user-male-circle.png" />
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <!--------------------------------------------HomePage------------------------------------------->
+        <section class="home-page">
+            <!-- left side code -->
+            <div class="left-home-page">
+                <h1>Explore Notes of CSE</h1>
+                <p>
+                    Here you will get all subject notes of Computer Science and Engineering branch of DKTE college.Also
+                    you will get the way to explore different domains like Competitive Programming,Web Development and
+                    Data Science.
+                </p>
+                <br>
+                <a href="studentlist.php"><button class="box-btn">Registerd Students</button></a>
+            </div>
+            <!-- right side of home page -->
+            <div class="right-home-page">
+                <img src="images\homepage.jpg" alt="e-learning photo">
+            </div>
+        </section>
+    </section>
+    <!-------------------------Second section-Years---------------------------->
+    <section class="years-section" id="section-two">
+        <div class="years-container">
+            <h2 class="years-heading">Academic years</h2>
+            <p class="years-text">
+                Engineering is course of 4 years from which 2nd,3rd and last year are of core subjects.
+            </p>
+            <div class="years-box-container">
+                <a href="secondyear.html" class="years-box">
+                        <img src="images\second.png" alt="Image 1">
+                        <div class="box-content">
+                            <h3>Second Year</h3>
+                            <p> Second year give you the taste of the Computer Science and this is the year where you
+                                have to build your base of programming and other cool stuff.You need to expolre new
+                                things and find your interest and starting work on it.Good luck..!!!</p>
+                        </div>
+                </a>
+
+                <a href="thirdyear.html" class="years-box">
+                    <img src="images\third.png" alt="Image 2">
+                    <div class="box-content">
+                        <h3>Third Year</h3>
+                        <p>Third year gives you more knowledge of core subjects like OS,DBMS,Machine Learning
+                            etc.You need to make strong DSA and Problem solving skills.Also this the time where you
+                            have to prepare for getting Internship and Placement.</p>
+                    </div>
+                </a>
+
+                <a href="fourthyear.html" class="years-box">
+                    <img src="images\fourth.png" alt="Image 3">
+                    <div class="box-content">
+                        <h3>Final Year</h3>
+                        <p>From starting of your final year Companies comes to college for Placement so you should
+                            have strong aptitude,programming skills and core subject knowledge.Also you have to
+                            complete one mega project in this year.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!--------------------------------------domain section------------------------------------------->
+    <section class="box-container" id="section-three">
+        <h2 class="domain-heading">Explore Domains</h2>
+        <div class="box">
+            <img src="images\cp.png" alt="Image 1">
+            <div class="text">
+                <h2 class="box-title">Competitive Programming</h2>
+                <p class="box-text">It helps identify and recruit top talent in software engineering, and enables
+                    programmers to develop problem-solving and critical thinking abilities, leading to better software
+                    development and innovation.</p>
+                <a href="competitive.html"><button class="box-btn">Learn More</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\wd.png" alt="Image 2">
+            <div class="text">
+                <h2 class="box-title">Web Development</h2>
+                <p class="box-text">It is in high demand and offers a wide range of job opportunities.Web development
+                    skills allow individuals to create and maintain websites and applications, which are essential tools
+                    for modern businesses and organizations.</p>
+                <a href="webd.html"><button class="box-btn">Learn More</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\ds.jpg" alt="Image 3">
+            <div class="text">
+                <h2 class="box-title">Data Science</h2>
+                <p class="box-text">It allows individuals and organizations to make data-driven decisions. With the
+                    exponential growth of data, the demand for skilled data scientists,it is promising field with
+                    significant potential for career growth and innovation.</p>
+                <a href="datascience.html"><button class="box-btn">Learn More</button></a>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------Library section ------------------------------->
+    <section class="library-body" id="section-four">
+        <div class="overlay">
+            <h1 class="library-text">Library Books</h1>
+            <a href="library.html" class="library-link">About Library</a>
+        </div>
+    </section>
+    <!---------------------------contact us--------------------------------->
+    <section id="section-five">
+        <div class="contact-us">
+            <h1 class="contact-heading">Contact Us</h1>
+            <form action="contactus.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit" class="contact-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!--------------------------------back to top logo---------------------------------->
+    <a href="#" id="back-to-top">
+        <img src="images\scrollup.png" alt="Back to Top">
+    </a>
+    <script src="script.js"></script>
+    <!-------------------------------------footer-------------------------------------->
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 NotesHub. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
