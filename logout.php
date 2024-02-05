@@ -4,5 +4,5 @@ unset($prn);
 unset($name);
 unset($email);
 unset($number);
-header("Location:login.php");
+header("Location:index.php");
 ?>

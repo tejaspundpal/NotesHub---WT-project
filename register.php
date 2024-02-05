@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                             <button name="submit" class="btn" type="submit">Register</button>
                         </form>
                         <div class="social-icons">
-                            <p>Have an account! <a href="login.php">Login</a>.</p>
+                            <p>Have an account! <a href="index.php">Login</a>.</p>
                         </div>
                     </div>
                 </div>
